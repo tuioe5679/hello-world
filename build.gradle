@@ -13,10 +13,12 @@ repositories {
 }
 
 dependencies {
-	//Ãß°¡ ¶óÀÌºê·¯¸® 
+	//ï¿½ß°ï¿½ ï¿½ï¿½ï¿½Ìºê·¯ï¿½ï¿½ 
 	implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
 	implementation 'org.springframework.boot:spring-boot-starter-web'
-	//±âº» ¶óÀÌºê·¯¸®
+	implementation 'org.springframework.boot:spring-boot-starter-jdbc'
+	runtimeOnly 'com.h2database:h2'
+	//ï¿½âº» ï¿½ï¿½ï¿½Ìºê·¯ï¿½ï¿½
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
 
